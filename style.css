@@ -1,0 +1,143 @@
+/* 重置基础样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* 页面整体布局 */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ADD8E6; /* 浅蓝色背景 */
+    color: #333;
+  }
+  
+  /* 容器布局 */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Hero Section 样式 */
+  #hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #87CEEB; /* 天蓝色背景 */
+    color: white;
+    text-align: center;
+  }
+  
+  #hero img {
+    margin-bottom: 20px;
+  }
+  
+  #hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  #hero h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  /* About Section 样式 */
+  #about {
+    padding: 60px 0;
+  }
+  
+  #about img {
+    margin-bottom: 20px;
+  }
+  
+  #about h3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #about p {
+    font-size: 18px;
+    line-height: 1.8;
+  }
+  
+  /* Resume Section 样式 */
+  #resume {
+    padding: 60px 0;
+  }
+  
+  #resume h3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #resume img {
+    margin-bottom: 20px;
+  }
+  
+  #resume ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  #resume li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Projects Section 样式 */
+  #projects {
+    padding: 60px 0;
+  }
+  
+  .project-item {
+    margin-bottom: 30px;
+  }
+  
+  .project-item h4 {
+    font-size: 24px;
+  }
+  
+  /* Contact Section 样式 */
+  #contact {
+    padding: 60px 0;
+  }
+  
+  #contact h3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  #contact p {
+    font-size: 18px;
+  }
+  
+  /* Footer 样式 */
+  #footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  #footer p {
+    margin: 0;
+  }
+  
+  /* 响应式设计 */
+  @media (max-width: 768px) {
+    .container {
+      width: 95%;
+    }
+  
+    #hero h1 {
+      font-size: 36px;
+    }
+  
+    #hero h2 {
+      font-size: 18px;
+    }
+  }
+  
